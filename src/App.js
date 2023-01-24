@@ -7,8 +7,9 @@ import {
   WhatBlack,
   Header,
 } from "./containers";
-
 import { Cta, Brand, Navbar } from "./components";
+import "./App.css";
+import "./index.css";
 
 const App = () => {
   return (
