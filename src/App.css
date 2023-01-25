@@ -51,7 +51,7 @@ a {
   );
 }
 
-gradient__text {
+.gradient__text {
   background: var(--gradient-text);
   background-clip: text;
   -webkit-background-clop: text;
