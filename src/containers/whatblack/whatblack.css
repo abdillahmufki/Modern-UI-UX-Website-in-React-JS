@@ -29,6 +29,7 @@
     rgba(27, 120, 222, 1) 100%
   );
 
+  /* ie 10+ */
   background: -ms-radial-gradient(
     circle at 30% -100%,
     #042c54 25%,
@@ -36,6 +37,7 @@
     rgba(27, 120, 222, 1) 100%
   );
 
+  /* global 92%+ browsers support */
   background: radial-gradient(
     circle at 30% -100%,
     #042c54 25%,
@@ -50,11 +52,13 @@
   display: flex;
 }
 
-.whatblack__whatgpt3-feature .whatblack__features-container__feature {
+/* Customizing feature component as per needs */
+.whatblack__whatgpt3-feature .gpt3__features-container__feature {
   margin: 0;
 }
 
-.whatblack__whatgpt3-feature .whatblack__features-container__feature-text {
+/* Customizing feature component as per needs */
+.whatblack__whatgpt3-feature .gpt3__features-container_feature-text {
   max-width: 700px;
 }
 
@@ -66,12 +70,13 @@
 
   margin: 4rem 0 2rem;
 }
+
 .whatblack__whatgpt3-heading h1 {
   font-size: 34px;
-  font-weight: 800;
-  max-width: 510px;
-  font-family: var(--font-family);
   line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  max-width: 510px;
 }
 
 .whatblack__whatgpt3-heading p {
@@ -89,4 +94,55 @@
   flex-direction: row;
 
   margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.whatblack__whatgpt3-container .gpt3__features-container__feature {
+  flex: 1;
+  margin: 1rem;
+  min-width: 210px;
+  display: unset;
+  flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.whatblack__whatgpt3-container .gpt3__features-container_feature-text {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .whatblack__whatgpt3-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
+
+  .whatblack__whatgpt3-heading p {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  /* Customizing feature component as per needs */
+  .whatblack__whatgpt3-feature .whatblack__features-container__feature {
+    flex-direction: column;
+  }
+
+  /* Customizing feature component as per needs */
+  .whatblack__whatgpt3-feature .whatblack__features-container_feature-text {
+    margin-top: 0.5rem;
+  }
+
+  .whatblack__whatgpt3-heading h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* Customizing feature component as per needs */
+  .whatblack__whatgpt3-container .whatblack__features-container__feature {
+    margin: 1rem 0;
+    min-width: 100%;
+  }
 }

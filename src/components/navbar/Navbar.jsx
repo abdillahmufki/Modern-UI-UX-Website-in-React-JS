@@ -10,7 +10,7 @@ const Navbar = () => {
         <a href="#home">Home</a>
       </p>
       <p>
-        <a href="#whatblack">What is GPT?</a>
+        <a href="#whpt3">What is GPT?</a>
       </p>
       <p>
         <a href="#home">Open AI</a>
