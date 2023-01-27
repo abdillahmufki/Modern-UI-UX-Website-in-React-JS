@@ -5,7 +5,7 @@
   flex-direction: row;
 }
 
-whatblack__features-heading {
+.whatblack__features-heading {
   flex: 1;
   display: flex;
   justify-content: flex-start;
@@ -33,7 +33,7 @@ whatblack__features-heading {
   margin-top: 2rem;
 }
 
-whatblack__features-container {
+.whatblack__features-container {
   flex: 1.5;
   display: flex;
   justify-content: flex-start;
